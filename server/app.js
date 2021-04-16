@@ -2,6 +2,7 @@ const express = require('express');
 
 const app = express();
 
+let a = 10;
 
 app.get('/list',async (req, res)=>{
     res.header('Access-Control-Allow-Origin', '*')
