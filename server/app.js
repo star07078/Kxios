@@ -3,8 +3,11 @@ const express = require('express');
 const app = express();
 
 let a = 10;
+let b = 20;
+
 
 app.get('/list',async (req, res)=>{
+    console.log(3)
     res.header('Access-Control-Allow-Origin', '*')
     res.send({
         x: 1, y: 2
